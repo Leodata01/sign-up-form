@@ -29,7 +29,99 @@
       </div>
     </div>
     <main>
-      <div></div>
+      <div class="title">
+        <p>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up now
+          to get started.
+        </p>
+        <p><em>You know you want to.</em></p>
+      </div>
+      <div class="container-form-create-account">
+        <form class="form-create-account" action="" method="post">
+          <div class="inputs">
+            <div class="form-title">Let's do this!</div>
+
+            <div class="form-row">
+              <div class="input-row-1">
+                <label for="first-name">FIRST NAME</label>
+                <input
+                  type="text"
+                  name="first-name"
+                  id="first-name"
+                  autocomplete="name"
+                />
+              </div>
+              <div class="input-row-2">
+                <label for="last-name">LAST NAME</label>
+                <input
+                  type="text"
+                  name="last-name"
+                  id="last-name"
+                  autocomplete="family-name"
+                />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="input-row-1">
+                <label for="email">EMAIL</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  autocomplete="email"
+                  placeholder="abcd@gmail.com"
+                />
+              </div>
+              <div class="input-row-2">
+                <label for="phone-number">PHONE NUMBER</label>
+                <input
+                  type="tel"
+                  name="phone-number"
+                  id="phone-number"
+                  placeholder="+41 78 951 69 35"
+                  autocomplete="tel"
+                />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="input-row-1">
+                <label for="password">PASSWORD</label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+                  required
+                />
+              </div>
+              <div class="input-row-2">
+                <label for="confirm-password">CONFIRM PASSWORD</label>
+                <input
+                  type="password"
+                  name="confirm-passwor"
+                  id="confirm-passwor"
+                  pattern="^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$"
+                  required
+                />
+              </div>
+            </div>
+            <div class="password-requirements">
+              <ul>
+                <li>Minimum 8 characters</li>
+                <li>At least 1 letter</li>
+                <li>At least 1 number</li>
+              </ul>
+            </div>
+          </div>
+          <div class="btn-create-container">
+            <button type="submit">Create Account</button>
+          </div>
+        </form>
+      </div>
+      <div class="login">Already have an account ? <a href="">Log in</a></div>
     </main>
   </body>
 </html>
