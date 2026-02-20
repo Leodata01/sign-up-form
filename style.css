@@ -22,6 +22,7 @@ body {
   line-height: 1.5;
   /* 5. Improve text rendering */
   -webkit-font-smoothing: antialiased;
+  height: 100vh;
 }
 
 /* 6. Improve media defaults */
@@ -77,3 +78,60 @@ h6 {
 /*  */
 /*  */
 /*  */
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+/* left part */
+.side-bar {
+  width: 30vw;
+  height: 100%;
+  position: relative;
+
+  color: white;
+
+  background-image: url("images/armand-khoury-Ba6IlmAzl-k-unsplash.jpg");
+  background-position: left;
+  background-size: cover;
+}
+
+.side-bar-logo {
+  display: flex;
+  position: absolute;
+  top: 20%;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+  width: 100%;
+
+  font-size: 3rem;
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+  background-color: rgba(62, 62, 62, 0.694);
+}
+
+.logo {
+  height: 3rem;
+}
+
+.reference {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: calc(0.5rem + 4px);
+}
+
+a {
+  color: white;
+}
+
+/* right part */
+
+main {
+  width: 70vw;
+}
